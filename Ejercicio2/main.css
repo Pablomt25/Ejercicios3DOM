@@ -1,0 +1,44 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos del encabezado */
+h1 {
+    color: #333;
+}
+
+/* Estilos del contenedor de la palabra a adivinar */
+.word-display {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilos de las vidas restantes */
+.lives {
+    color: #f00;
+}
+
+/* Estilos de las letras incorrectas */
+.wrong-guesses {
+    color: #f00;
+}
+
+/* Estilos del botón de adivinar */
+.guess-button {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.guess-button:hover {
+    background-color: #555;
+}
